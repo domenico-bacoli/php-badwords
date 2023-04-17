@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
     <?php echo $text; ?><br>
     <span>La Lunghezza del paragrafo è di <?php echo strlen($text); ?> caratteri.</span><br>
     <span>Questa parola è stata censurata: <?php echo $badWords; ?></span>
-    <p>Paragrafo aggiornato: <?php echo $censuredText;?></p><br>
+    <p>Paragrafo aggiornato: <?php echo $censuredText;?></p>
     <span>Lunghezza del paragrafo aggiornato: <?php echo strlen($censuredText); ?> caratteri</span>
 </body>
 </html>
